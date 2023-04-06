@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.bgcolor{
+    background-color: black;
+    color: #fff;
+}
+.colortext{
+    color: #52BE80;
+}
+.container{
+max-width: 1100px;
+margin: auto;
+overflow: auto;
+
+}
+#navbar{
+    background-color: black;
+    overflow-y: hidden;
+    height: 70px;
+}
+#navbar a {
+   color: #fff;
+}
+#navbar h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   color: #fff;
+    float: left;
+}
+#navbar ul{
+    float: right;
+    display: flex;
+    margin: 30px 30px;
+    list-style: none;
+}
+#navbar ul li{
+ float: left;
+} 
+#navbar ul li a{
+    display: block;
+    padding: 10px 20px 30px 20px;
+    text-align: center;
+
+}
+#navbar ul li a:hover {
+    background-color: #333;
+    color: #52BE80;
+    transition: all ease-in-out 0.5s;
+}  
+#header{
+    background:linear-gradient(to top left,rgba(0,0,0,0.7),rgba(0,0,0,0.5)),
+     url(./kaleb-tapp-1deQbU6DhBg-unsplash.jpg) no-repeat center center/cover;
+    height: 88.7vh;
+    width: 100%;
+    text-align: center;  
+}
+#header .headertext{
+    margin-top: 220px;
+    font-size: 15px;
+    color: white;
+} 
+.button{
+    display: inline-block;
+    background-color: black;
+    color: #fff;   
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.button:hover{
+    color: #52BE80;
+    transition: all ease-in-out;
+}
+.textcolor{
+    color: #52BE80;
+}
+#what{
+height: 72vh;    
+}
+#what .whatcontentimg{
+    width: 50%;
+    background: url(./286712598_111894744875608_5547918998843983187_n.jpg)no-repeat center center/cover;
+    min-height:100%;
+    float: left;
+}
+#what .whatcontent{
+    text-align: center;
+    padding-top: 150px;
+}
+#courses .mainheading{
+    text-align: center;
+    text-decoration: underline;
+}
+#courses .box{
+    width: 33.3%;
+    float: left;
+    padding: 50px 20px;
+    height: 50vh;
+    text-align: center;
+    font-size: 15px;
+}
+.bgcolor1{
+    background-color: blue;
+    color: black;
+}
+.bgcolor2{
+    background-color: green;
+    color: black;
+}
+.bgcolor3{
+    background-color: violet;
+    color: black;
+}
+#details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    line-height: 50px;
+    font-size: 25px;
+}
